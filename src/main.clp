@@ -95,7 +95,7 @@
     (printout t crlf"Hasil Prediksi = Unclear (possible resolved)" crlf)
 )
 
-(defrule have-healhty
+(defrule have-healthy
     (and (hbsag-positive false) (anti-hbs-positive false) (anti-hbc-positive false))
     =>
     (printout t crlf"Hasil Prediksi = Healthy not vaccinated or suspicious" crlf)
